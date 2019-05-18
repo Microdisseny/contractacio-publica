@@ -1,0 +1,10 @@
+*~
+*.pyc
+.pydevproject
+.DS_Store
+/env/
+/.project
+/.coverage
+test.db
+docker-test/requirements.txt
+tests/media/*

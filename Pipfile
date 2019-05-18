@@ -1,0 +1,21 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+flake8 = "*"
+flake8-isort = "*"
+
+[packages]
+beautifulsoup4 = "==4.7.1"
+bs4 = "==0.0.1"
+django-theme-microdisseny = {editable = true,git = "https://github.com/Microdisseny/django-theme-microdisseny.git",ref = "f5115fbb38abc286fc5ff41e045f77d1c020609f"}
+python-slugify = "==3.0.2"
+pytz = "==2019.1"
+requests = "==2.22.0"
+Django = "==2.2.1"
+django-groupadmin-users = "==0.3.3"
+
+[requires]
+python_version = "3.7"
